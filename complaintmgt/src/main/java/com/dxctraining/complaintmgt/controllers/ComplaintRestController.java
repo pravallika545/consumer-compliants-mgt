@@ -22,7 +22,7 @@ import com.dxctraining.complaintmgt.service.IComplaintService;
 import com.dxctraining.complaintmgt.util.ComplaintUtil;
 
 @RestController
-@RequestMapping("/complaint")
+@RequestMapping("/complaints")
 public class ComplaintRestController {
 	
 	@Autowired
