@@ -48,7 +48,7 @@ public class Consumer {
 		boolean isEquals = this.id == that.id;
 		return isEquals;
 	}
-	
+	@Override
 	public int hashCode() {
 		return id;
 	}
